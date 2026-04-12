@@ -48,3 +48,7 @@ print(f"Removed {removed_count} duplicate records")
 
 ## python src/deduplicator.py
 <img width="934" height="548" alt="Screenshot_20260411_040102-1" src="https://github.com/user-attachments/assets/bb302759-1a86-4ff9-9457-6f70e4a85743" />
+
+
+## Run tests : pytest src/tests/ -v
+<img width="977" height="234" alt="Screenshot_20260411_040147-1" src="https://github.com/user-attachments/assets/8574534c-5c26-4dac-9d81-3a0c15cecae2" />
