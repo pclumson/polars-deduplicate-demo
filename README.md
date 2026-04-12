@@ -44,3 +44,7 @@ print(f"Removed {removed_count} duplicate records")
 
 ## python src/data_generator.py # on the first run data will be generated
 <img width="963" height="112" alt="Screenshot_20260411_040018" src="https://github.com/user-attachments/assets/d9312e78-d7ad-46d4-af93-375d7770eae7" />
+
+
+## python src/deduplicator.py
+<img width="934" height="548" alt="Screenshot_20260411_040102-1" src="https://github.com/user-attachments/assets/bb302759-1a86-4ff9-9457-6f70e4a85743" />
