@@ -16,3 +16,26 @@ This project implements a production-ready deduplication system using **Polars**
 
 ```bash
 pip install -r requirements.txt
+
+# Run the demo
+python src/data_generator.py # on the first run data will be generated
+python src/deduplicator.py
+
+# Run tests
+pytest src/tests/ -v
+
+
+## Basic Usage
+from src.deduplicator import DataDeduplicator
+from src.data_generator import generate_sample_data
+
+# Generate sample data
+df = generate_sample_data(num_rows=1_000_000)
+
+# Create deduplicator
+deduplicator = DataDeduplicator()
+
+# Remove duplicates by email
+deduped_df, removed_count = deduplicator.deduplicate_by_email(df)
+
+print(f"Removed {removed_count} duplicate records")
