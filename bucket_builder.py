@@ -75,5 +75,6 @@ if __name__ == '__main__':
         item_to_remove = bucket_contents[0]
         bucket_contents = process_bucket(adding=False, item_to_remove=item_to_remove)
         print(f"After removal: {bucket_contents}")
+        print("Good Bye have a nice day")
 
 
