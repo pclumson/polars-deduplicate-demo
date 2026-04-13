@@ -54,7 +54,7 @@ print(f"Removed {removed_count} duplicate records")
 <img width="977" height="234" alt="Screenshot_20260411_040147-1" src="https://github.com/user-attachments/assets/8574534c-5c26-4dac-9d81-3a0c15cecae2" />
 
 
-## Tod0 next
+## Todo next
 # Polars Deduplication Demo
 
 **High-performance, scalable record deduplication pipeline built with Polars, designed for enterprise-scale data processing (billions of records).**
